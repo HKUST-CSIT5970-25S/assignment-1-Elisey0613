@@ -5,9 +5,9 @@
 
 ---
 
-### Name: 
-### Student Id: 
-### Email: 
+### Name: YANG Yanxi
+### Student Id: 21087403
+### Email: yyanghb@connect.ust.hk
 
 ---
 
@@ -70,8 +70,8 @@ Memory Performance Results:<br>
 
     | Connection                | TCP b/w (Mbps) | RTT (ms) |
     | ------------------------- | -------------- | -------- |
-    | N. Virginia - Oregon      |                |          |
-    | N. Virginia - N. Virginia |                |          |
-    | Oregon - Oregon           |                |          |
+    | N. Virginia - Oregon      | 32200          | 60.815   |
+    | N. Virginia - N. Virginia | 4960           | 0.137    |
+    | Oregon - Oregon           | 9250           | 0.110    |
  
     > Region: US East (N. Virginia), US West (Oregon). Use `Ubuntu Server 22.04 LTS (HVM)` as AMI. All instances are `c5.large`. Note: Use public IP address when using iPerf within the same region.
