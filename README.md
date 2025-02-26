@@ -15,9 +15,9 @@
 
 1. (1 mark) Report the name of measurement tool used in your measurements (you are free to choose *any* open source measurement software as long as it can measure CPU and memory performance). Please describe your configuration of the measurement tool, and explain why you set such a value for each parameter. Explain what the values obtained from measurement results represent (e.g., the value of your measurement result can be the execution time for a scientific computing task, a score given by the measurement tools or something else).
 
->I used Phoronix Test Suite (PTS) as the measurement tool, which is a widely used open-source benchmarking framework for Linux platforms. It can measure both CPU and memory performance.<br>
+I used Phoronix Test Suite (PTS) as the measurement tool, which is a widely used open-source benchmarking framework for Linux platforms. It can measure both CPU and memory performance.<br>
 
->Configuration Parameters:<br>
+Configuration Parameters:<br>
 Benchmark Suite: pts/cpu and pts/memory<br>
     pts/cpu was selected to evaluate processor computing capabilities, including integer and floating-point performance.<br>
     pts/memory was chosen to assess system memory bandwidth and access latency.<br>
