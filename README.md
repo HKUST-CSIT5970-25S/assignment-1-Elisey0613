@@ -41,6 +41,11 @@ Memory Performance Results:<br>
     | `t2.micro` | Compression Rating: Average: 3685 MIPS ; Deviation: 2.27%<br> Decompression Rating: Average: 3101 MIPS ; Deviation: 0.31% | Type: Copy - Benchmark: Integer: Average: 10939.35 MB/s ; Deviation: 0.28% |
     | `t2.medium`  | Compression Rating: Average: 9796 MIPS ; Deviation: 1.86%<br> Decompression Rating: Average: 5911 MIPS ; Deviation: 1.07% | Type: Copy - Benchmark: Integer: Average: 19552.74 MB/s ; Deviation: 1.40% |
     | `c5d.large` | Compression Rating: Average: 7557 MIPS ; Deviation: 0.39%<br> Decompression Rating: Average: 4960 MIPS ; Deviation: 0.86% | Type: Copy - Benchmark: Integer: Average: 14151.21 MB/s ; Deviation: 0.39% |
+    The CPU performance does not increase proportionally with the increase in resources. For example:<br>
+    t2.medium (which has more resources than t2.micro) shows a significant improvement in both compression and decompression performance (compression increased by approximately 2.66x, and decompression by 1.9x).<br>
+    However, c5d.large (with more resources than t2.medium) does not show a proportional increase in performance. In fact, its CPU performance is lower than that of t2.medium in both compression and decompression. This may be due to the specific architecture and configuration of the instances.<br>
+    Memory Performance:<br>
+    Similarly, memory performance increases with the size of the instance but is not strictly proportional. The t2.medium outperforms the c5d.large in memory bandwidth (19552 MB/s vs. 14151 MB/s), despite c5d.large having more resources. This suggests that t2.medium might have better memory access or configuration for certain workloads.
 
     > Region: US East (N. Virginia). Use `Ubuntu Server 22.04 LTS (HVM)` as AMI.
 
