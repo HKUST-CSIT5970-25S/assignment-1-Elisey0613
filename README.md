@@ -38,7 +38,7 @@ Memory Performance Results:<br>
 
     | Size        | CPU performance | Memory performance |
     | ----------- | --------------- | ------------------ |
-    | `t2.micro` |                 |                    |
+    | `t2.micro` | Compression Rating: Average: 3685 MIPS ;Deviation: 2.27% |                    |
     | `t2.medium`  |                 |                    |
     | `c5d.large` |                 |                    |
 
