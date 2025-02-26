@@ -38,9 +38,9 @@ Memory Performance Results:<br>
 
     | Size        | CPU performance | Memory performance |
     | ----------- | --------------- | ------------------ |
-    | `t2.micro` | Compression Rating: Average: 3685 MIPS ;Deviation: 2.27% |                    |
-    | `t2.medium`  |                 |                    |
-    | `c5d.large` |                 |                    |
+    | `t2.micro` | Compression Rating: Average: 3685 MIPS ;Deviation: 2.27%<br> Decompression Rating: Average: 3101 MIPS ;Deviation: 0.31% |                    |
+    | `t2.medium`  | Compression Rating: Average: 9796 MIPS ;Deviation: 1.86%<br> Decompression Rating: Average: 5911 MIPS ;Deviation: 1.07% |                    |
+    | `c5d.large` | Compression Rating: Average: 7557 MIPS ;Deviation: 0.39%<br> Decompression Rating: Average: 4960 MIPS ;Deviation: 0.86% |                    |
 
     > Region: US East (N. Virginia). Use `Ubuntu Server 22.04 LTS (HVM)` as AMI.
 
