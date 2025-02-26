@@ -14,8 +14,8 @@
 ## Question 1: Measure the EC2 CPU and Memory performance
 
 1. (1 mark) Report the name of measurement tool used in your measurements (you are free to choose *any* open source measurement software as long as it can measure CPU and memory performance). Please describe your configuration of the measurement tool, and explain why you set such a value for each parameter. Explain what the values obtained from measurement results represent (e.g., the value of your measurement result can be the execution time for a scientific computing task, a score given by the measurement tools or something else).
-
-I used Phoronix Test Suite (PTS) as the measurement tool, which is a widely used open-source benchmarking framework for Linux platforms. It can measure both CPU and memory performance.<br>
+   
+   I used Phoronix Test Suite (PTS) as the measurement tool, which is a widely used open-source benchmarking framework for Linux platforms. It can measure both CPU and memory performance.<br>
 
 Configuration Parameters:<br>
 Benchmark Suite: pts/cpu and pts/memory<br>
@@ -31,6 +31,8 @@ CPU Performance Results:<br>
 Memory Performance Results:<br>
     Possible metrics include memory bandwidth (MB/s) and latency (ns).<br>
     Higher memory bandwidth indicates faster data read/write speeds, while lower latency means more efficient data access.<br>
+
+
 
 2. (1 mark) Run your measurement tool on general purpose `t2.micro`, `t2.medium`, and `c5d.large` Linux instances, respectively, and find the performance differences among these instances. Launch all the instances in the **US East (N. Virginia)** region. Does the performance of EC2 instances increase commensurate with the increase of the number of vCPUs and memory resource?
 
