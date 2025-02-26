@@ -57,12 +57,12 @@ Memory Performance Results:<br>
 
     | Type                      | TCP b/w (Mbps) | RTT (ms) |
     | ------------------------- | -------------- | -------- |
-    | `t3.medium` - `t3.medium` |                |          |
-    | `m5.large` - `m5.large`   |                |          |
-    | `c5n.large` - `c5n.large` |                |          |
-    | `t3.medium` - `c5n.large` |                |          |
-    | `m5.large` - `c5n.large`  |                |          |
-    | `m5.large` - `t3.medium`  |                |          |
+    | `t3.medium` - `t3.medium` | 3350           | 0.296    |
+    | `m5.large` - `m5.large`   | 4960           | 0.182    |
+    | `c5n.large` - `c5n.large` | 4960           | 0.166    |
+    | `t3.medium` - `c5n.large` | 2470           | 0.653    |
+    | `m5.large` - `c5n.large`  | 3080           | 0.497    |
+    | `m5.large` - `t3.medium`  | 1800           | 0.970    |
 
     > Region: US East (N. Virginia). Use `Ubuntu Server 22.04 LTS (HVM)` as AMI. Note: Use private IP address when using iPerf within the same region. You'll need iPerf for measuring TCP bandwidth and Ping for measuring Round-Trip time.
 
